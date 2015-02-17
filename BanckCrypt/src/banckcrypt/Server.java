@@ -43,7 +43,7 @@ public class Server extends JFrame {
     
     public void runServer() {
         
-        displayMessage("Weiting for connection\n");
+        displayMessage("Waiting for connection\n");
         
         try {
             server = new ServerSocket(12345);
@@ -54,6 +54,9 @@ public class Server extends JFrame {
                 displayMessage("Connection " + count + " received from: "
                         + connection.getInetAddress().getHostName());
                 count++;
+                
+                ServerConnection serverConnection = new ServerConnection(connection, this, count);
+                new Thread(serverConnection).start();
             }
             
         } catch (IOException ex) {
