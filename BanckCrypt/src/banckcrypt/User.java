@@ -58,7 +58,7 @@ public class User {
         this.canEncrypt = canEncrypt;
     }
 
-    public boolean isCanEncrypt() {
+    public boolean getCanEncrypt() {
         return canEncrypt;
     }
     
@@ -67,7 +67,7 @@ public class User {
         this.canDecrypt = canDecrypt;
     }
 
-    public boolean isCanDecrypt() {
+    public boolean getCanDecrypt() {
         return canDecrypt;
     }
     

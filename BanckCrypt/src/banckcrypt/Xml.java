@@ -13,7 +13,7 @@ import java.io.FileOutputStream;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class BanckCrypt {
+public class Xml {
 
     public static void main(String[] args) {
 
@@ -35,7 +35,7 @@ public class BanckCrypt {
         try {
             xstream.toXML(users, new FileOutputStream(new File("users.xml")));
         } catch (FileNotFoundException ex) {
-            Logger.getLogger(BanckCrypt.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Xml.class.getName()).log(Level.SEVERE, null, ex);
         }
         
         try {

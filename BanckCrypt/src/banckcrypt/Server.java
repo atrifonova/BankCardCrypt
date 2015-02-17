@@ -41,7 +41,7 @@ public class Server extends JFrame {
         setVisible(true);
     }
     
-    public void startServer() {
+    public void runServer() {
         
         displayMessage("Weiting for connection\n");
         
