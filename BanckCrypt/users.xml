@@ -1,0 +1,22 @@
+<users>
+  <list>
+    <user>
+      <userName>tony</userName>
+      <password>12345</password>
+      <canEncrypt>true</canEncrypt>
+      <canDecrypt>true</canDecrypt>
+    </user>
+    <user>
+      <userName>test</userName>
+      <password>111</password>
+      <canEncrypt>true</canEncrypt>
+      <canDecrypt>false</canDecrypt>
+    </user>
+    <user>
+      <userName>gosho</userName>
+      <password>qazse</password>
+      <canEncrypt>false</canEncrypt>
+      <canDecrypt>true</canDecrypt>
+    </user>
+  </list>
+</users>
